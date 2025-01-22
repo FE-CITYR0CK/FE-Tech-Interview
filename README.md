@@ -66,7 +66,7 @@
 | 1주차 | 01.17. (금) |    심여은     |       [Network] REST API에 대해 설명해주세요.   |
 | 1주차 | 01.17. (금) |    이지수     |       [HTTP] HTTP 메소드에 대해 설명해주세요.    |
 | 1주차 | 01.17. (금) |    이효린     |       [Web] CSRF나 XSS 공격을 막는 방법을 설명해주세요.   |
-| 1주차 | 01.17. (금) |    노이진     |       [JavaScript] async/await에 대해 설명해주세요.   |
+| 1주차 | 01.17. (금) |    노이진     |       [[JavaScript] async/await에 대해 설명해주세요.](https://github.com/FE-CITYR0CK/FE-Tech-Interview/blob/main/JavaScript/async%2C%20await%EC%97%90%20%EB%8C%80%ED%95%B4%20%EC%84%A4%EB%AA%85%ED%95%B4%EC%A3%BC%EC%84%B8%EC%9A%94..md)   |
 | 2주차 | 01.21. (화) |    심여은     |       [Network] 브라우저 렌더링 원리에 대해 설명해주세요.   |
 | 2주차 | 01.21. (화) |    이지수     |       [JavaScript] 호이스팅에 대해 설명해주세요.   |
 | 2주차 | 01.24. (금) |    이효린     |       [JavaScript] 클래스형 컴포넌트와 함수형 컴포넌트의 차이는 무엇일까요?   |
