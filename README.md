@@ -8,7 +8,7 @@
 1. [**주제별 목록**](#4)
    - [HTTP](#http)
    - [Web](#web)
-   - [JavaScript](#javascript)
+   - [JavaScript](https://github.com/FE-CITYR0CK/FE-Tech-Interview/tree/main/JavaScript)
    - [CSS](#css)
    - [Network](#network)
    - [HTML](#html)
@@ -70,6 +70,6 @@
 | 2주차 | 01.21. (화) |    심여은     |       [Network] 브라우저 렌더링 원리에 대해 설명해주세요.   |
 | 2주차 | 01.21. (화) |    이지수     |       [JavaScript] 호이스팅에 대해 설명해주세요.   |
 | 2주차 | 01.24. (금) |    이효린     |       [JavaScript] 클래스형 컴포넌트와 함수형 컴포넌트의 차이는 무엇일까요?   |
-| 2주차 | 01.24. (금) |    노이진     |       [JavaScript] 클로저란 무엇인가요?   |
+| 2주차 | 01.24. (금) |    노이진     |       [[JavaScript] 클로저란 무엇인가요?](https://github.com/FE-CITYR0CK/FE-Tech-Interview/blob/main/JavaScript/%ED%81%B4%EB%A1%9C%EC%A0%80%EB%9E%80%20%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94%3F.md)   |
 | 2주차 | 01.24. (금) |    심여은     |       [JavaScript] "=="와 "==="의 차이는 무엇인가요?   |
 
