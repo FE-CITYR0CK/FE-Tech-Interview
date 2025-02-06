@@ -1,14 +1,20 @@
-## 면접용
-
-사용자가 naver.com을 입력하면 브라우저가 url을 파싱합니다. 파싱 이후 dns 조회에 들어가는데 보통 브라우저 캐시, 로컬 dns, tld, authoritative dns 순서로 조회하게 됩니다. 
-
-조회 결과 반환받은 ip주소로 3way handshake로 연결을 맺고, Http 요청을 보냅니다. 이후 html 응답을 받으면 해당 응답을 토대로 브라우저 렌더링 과정을 거치게 됩니다.
+# 주소창에 naver.com을 입력하면 일어나는 일에 대해 말씀해주세요.
 
 <hr/>
 
+## 면접용
+
+사용자가 naver.com을 입력하면 브라우저가 url을 파싱합니다. 파싱 이후 dns 조회에 들어가는데 보통 브라우저 캐시, 로컬 dns, tld, authoritative dns 순서로 조회하게 됩니다.
+
+조회 결과 반환받은 ip주소로 3way handshake로 연결을 맺고, Http 요청을 보냅니다. 이후 html 응답을 받으면 해당 응답을 토대로 브라우저 렌더링 과정을 거치게 됩니다.
+
+<br/>
+<hr/>
+<br/>
+
 ## 개념 설명
 
-우리가 naver.com을 치면 브라우저는 보통 DNS(Domain Name Service)를 체크하지만, 현대 브라우저는 여러 캐시를 거치게 됩니다. 
+우리가 naver.com을 치면 브라우저는 보통 DNS(Domain Name Service)를 체크하지만, 현대 브라우저는 여러 캐시를 거치게 됩니다.
 
 ### 1. 캐시 체크
 
@@ -16,7 +22,7 @@
 
 **브라우저 캐시**
 
-기존에 naver.com을 방문했었다면, 구글에 빠르게 접근할 수 있는 내용들이 브라우저 캐시에 있습니다. 
+기존에 naver.com을 방문했었다면, 구글에 빠르게 접근할 수 있는 내용들이 브라우저 캐시에 있습니다.
 
 크롬에서는 `chrome://net-internals/#dns` 에서 DNS 캐시 상태를 볼 수 있습니다.
 
@@ -59,11 +65,9 @@ DNS는 도메인네임과 IP를 매칭해서, 도메인네임으로 쿼리를 �
 **DNS 종류**
 
 - **Local DNS 서버 (기지국 DNS 서버)**
-    
-    인터넷을 설치할 때 각각의 통신사가 있고, 각각의 통신사마다 DNS 서버가 존재합니다.
-    
-    KT 인터넷을 설치하면 KT DNS가 되고, U+를 사용하면 LG U+ DNS가 자동으로 세팅됩니다.
-    
+  인터넷을 설치할 때 각각의 통신사가 있고, 각각의 통신사마다 DNS 서버가 존재합니다.
+  KT 인터넷을 설치하면 KT DNS가 되고, U+를 사용하면 LG U+ DNS가 자동으로 세팅됩니다.
+
 <img width="975" alt="image (14)" src="https://github.com/user-attachments/assets/137e7c09-db89-4ae6-b0f9-21234674cf62" />    
     www.naver.com.
     
@@ -92,7 +96,6 @@ DNS는 도메인네임과 IP를 매칭해서, 도메인네임으로 쿼리를 �
 - **Sub-Level DNS**
     
     이 안에 `mail.naver.com` , `cafe.naver.com` ,`blog.naver.com` 등등의 Sub DNS 서버가 가지고 있는 것이죵
-    
 
 <img width="217" alt="image (16)" src="https://github.com/user-attachments/assets/ed8e4544-b45e-4ca5-bedf-be46a15b1be0" />
 ![image.png](attachment:8a4da83b-93b2-4e05-81ad-ffbcfabe9a4a:image.png)
@@ -118,18 +121,17 @@ dig [www.naver.com](http://www.naver.com/) +trace
 ```
 
 1. **Root DNS 조회 (.)**
-    
+
 ![image (20)](https://github.com/user-attachments/assets/346da3cf-4acf-4a45-97fc-ea2ee6976b23)
-    
 
 1. **TLD 네임서버 조회 (com.)**
-    
+
 ![image (21)](https://github.com/user-attachments/assets/2fa2acdc-6535-4cdb-9b54-f902010617d8)
 
 2. **naver.com의 Authoritative DNS 서버 조회 (naver.com)**
-    
+
 ![image (22)](https://github.com/user-attachments/assets/0dd2d209-d8cc-4a47-af10-c61a8f762a73)
-    
+
 3. **최종적으로 www.naver.com의 IP주소 조회**
 
 ![image (23)](https://github.com/user-attachments/assets/9aea71ee-582e-4b2e-b600-a1e48bf6bc2f)
@@ -141,9 +143,9 @@ Authoritative DNS란 특정 도메인에 대해 최종적인 DNS 정보를 저�
 사용자가 웹 사이트에 접속할 때, 이 서버에서 최종 IP정보를 제공합니다.
 
 - **역할**
-    - 도메인의 IP주소 저장 및 응답
-    - DNS 레코드 관리
-    - Recursive Resolver의 질의에 대한 최종 응답 제공
+  - 도메인의 IP주소 저장 및 응답
+  - DNS 레코드 관리
+  - Recursive Resolver의 질의에 대한 최종 응답 제공
 
 **Authoritative DNS 확인해보기**
 
@@ -165,12 +167,11 @@ dig [naver.com](http://naver.com) NS
 
 **A레코드**
 
-DNS에 저장되는 정보의 타입으로 도메인 주소와 서버의 IP 주소가 직접 매핑시키는 방법입니다. 
+DNS에 저장되는 정보의 타입으로 도메인 주소와 서버의 IP 주소가 직접 매핑시키는 방법입니다.
 
 - 도메인 naver.com을 예로 든다면, A레코드는 “네이버의 IP 주소는 123.123.123.123에 연결됨” 이라고 말하는 역할입니다.
 
 > 도메인 매핑 설정에 따라 일대다 / 다대일이 될 수도 있습니다.
-> 
 
 실제로 naver.com의 A 레코드를 조회하였을 때 223.130.200.104 / 223.130.200.107 / 223.130.195.95 / 223.130.195.200의 IP주소가 매핑 되어있는 것을 볼 수 있습니다.
 
@@ -184,24 +185,21 @@ CName 레코드는 도메인 별명 레코드라고 부르며, 도메인 주소�
 
 그러고 `daum.net` 에 매핑된 (A레코드) IP 주소 203.133.167.81을 얻어 최종적으로 서비스에 접속되는 방식입니다.
 
-
 <img width="968" alt="image (27)" src="https://github.com/user-attachments/assets/0176f1f3-f0c4-4962-b6fa-2165d40ddef4" />
-
 
 **A레코드 VS CNAME레코드**
 
-|  | 장점 | 단점 |
-| --- | --- | --- |
-| A레코드 | 도메인이 바뀌어도 IP는 그대로이므로 유지가 된다 | 서버 이전등의 문제로 IP가 변동될시에 일일히 변경해야한다. |
-| CNAME | 서버 이전등의 문제로 IP가 변동될시에 변경하지 않아도 된다. | 도메인이 바뀌면 변경해야 한다. 여러번 요청이 될 경우 성능 저하가 날 수 있다. |
+|         | 장점                                                       | 단점                                                                         |
+| ------- | ---------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| A레코드 | 도메인이 바뀌어도 IP는 그대로이므로 유지가 된다            | 서버 이전등의 문제로 IP가 변동될시에 일일히 변경해야한다.                    |
+| CNAME   | 서버 이전등의 문제로 IP가 변동될시에 변경하지 않아도 된다. | 도메인이 바뀌면 변경해야 한다. 여러번 요청이 될 경우 성능 저하가 날 수 있다. |
 
 ### 3. TCP 3-way handshake
 
 ![image (26)](https://github.com/user-attachments/assets/45fc116b-8eb3-42a1-b3ce-4b7609db1381)
 
-
 1. 클라이언트가 서버로 `SYN 세그먼트`를 보냅니다. (`SYN 세그먼트`는 헤더의 `SYN` 필드의 비트가 1로 설정된 세그먼트, 데이터 포함 X)
-2. `SYN 세그먼트`를 받은 서버는 `SYN_RCVD` 상태가 되고, 해당 클라이언트와의 TCP 통신에서 사용할 버퍼 및 변수(e.g. 윈도우 크기)등을 초기화합니다. 
+2. `SYN 세그먼트`를 받은 서버는 `SYN_RCVD` 상태가 되고, 해당 클라이언트와의 TCP 통신에서 사용할 버퍼 및 변수(e.g. 윈도우 크기)등을 초기화합니다.
 3. `SYN 세그먼트` 에 대한 응답으로 헤더의 `SYN`과 `ACK` 필드의 비트가 1로 설정된 `SYNACK 세그먼트`를 클라이언트에 전송합니다.
 4. `SYNACK 세그먼트` 를 받은 클라이언트는 해당 서버와의 TCP 통신에서 사용할 버퍼와 변수를 초기화하고, `SYNACK 세그먼트`를 통해 받은 값에 1을 더한 값을 ack 값으로 해서 `ACK 세그먼트`에 포함하여 서버에 전송합니다.
 5. 클라이언트의 상태가 `ESTABLISHED`로 바뀌고, 이제부터는 TCP 연결이 생성된 상태이므로 `ACK 세그먼트`를 서버에 전송할 때 애플리케이션의 데이터도 포함하여 전송할 수 있습니다.
