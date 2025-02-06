@@ -7,6 +7,9 @@
 <b>'FE-Tech-Interview'</b>는 **프론트엔드 개발 분야의 기술, CS 지식, 프로젝트 경험, 최신 개발 트렌드 등**의 주제로 약 1시간 동안 발표를 통해 서로 **지식을 공유**하는 스터디입니다.
 
 <br />
+<div align="center">
+<img width="502" alt="A4 - 1" src="https://github.com/user-attachments/assets/0bce5489-61ce-4d56-a213-2e7bc57145a3" />
+</div>
 
 ### 스터디 진행 순서
 
