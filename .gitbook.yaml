@@ -1,0 +1,10 @@
+ignore:
+  - ".github"
+
+site:
+  title: "FE Tech Interview"
+  meta:
+    og:title: "FE Tech Interview"
+    og:description: "Frontend 개발자를 위한 여러 정보를 담은 사이트입니다."
+    og:image: "https://github.com/user-attachments/assets/0bce5489-61ce-4d56-a213-2e7bc57145a3"
+    og:url: "https://fe-cityr0ck.gitbook.io/fe-tech-interview"

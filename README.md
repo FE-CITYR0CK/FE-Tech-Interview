@@ -1,49 +1,24 @@
 # FE-Tech-Interview
 
-## 목차
-
-1. [**스터디 소개**](#1)
-1. [**스터디 멤버**](#2)
-1. [**스터디 진행 일정표**](#3)
-1. [**주제별 목록**](#4)
-   - [HTTP](#http)
-   - [Web](#web)
-   - [JavaScript](https://github.com/FE-CITYR0CK/FE-Tech-Interview/tree/main/JavaScript)
-   - [CSS](#css)
-   - [Network](#network)
-   - [HTML](#html)
-   - [React](#react)
-   - [ETC](#etc)
-
-<br />
-
 <div id="1"></div>
 
 ## 스터디 소개
 
-**프론트엔드 테크 인터뷰 스터디' 기대 효과**는 **웹 개발 분야의 기술, CS 지식, 프로젝트 경험, 최신 개발 트렌드 등**의 주제로 약 10분간 발표를 통해 서로 **지식을 공유**하는 스터디입니다.
+<b>'FE-Tech-Interview'</b>는 **프론트엔드 개발 분야의 기술, CS 지식, 프로젝트 경험, 최신 개발 트렌드 등**의 주제로 약 1시간 동안 발표를 통해 서로 **지식을 공유**하는 스터디입니다.
 
 <br />
+<div align="center">
+<img width="502" alt="A4 - 1" src="https://github.com/user-attachments/assets/0bce5489-61ce-4d56-a213-2e7bc57145a3" />
+</div>
 
 ### 스터디 진행 순서
 
-'약 10분 발표' ➜ '5분 QnA' ➜ '다음 발표 주제 소개(다음 발표자)' ➜ '스터디 종료 후 발표 내용을 정리한 마크다운 파일을 깃헙 저장소에 커밋'
+다음과 같은 순서를 한 사람씩 반복합니다.
+
+'약 10분 발표' ➜ '5분 QnA' ➜ '스터디 종료 후 발표 내용을 정리한 마크다운 파일을 깃헙 저장소에 커밋'
 
 <br />
 
-### '프론트엔드 테크 인터뷰 스터디' 기대 효과
-
-**프론트엔드 테크 인터뷰 스터디**는 크게 네 가지 효과를 기대합니다.
-
-**첫째**, 스스로 프로젝트를 통해 얻었던 경험과 지식을 돌아보고 스터디원들에게 공유해 더 나은 개발자가 될 수 있기를 기대합니다.
-
-**둘째**, 발표 준비 과정을 블로그에 정리함으로서 실제 포트폴리오에 활용하고, 준비한 발표 주제에 대해 다른 사람에게 설명하고 이해시킬 수 있는 수준까지 공부하게 되는 효과를 기대합니다.
-
-**셋째**, 다른 스터디원들의 발표를 들으며 새로운 지식들을 습득하거나 또는 기존에 알고 있었던 지식도 내용 보충과 더불어 복습 효과를 기대합니다.
-
-**넷째**, 스터디를 통해 실제 면접에서도 좋은 결과를 얻을 수 있기를 기대합니다.
-
-<br />
 
 <div id="2"></div>
 
@@ -63,13 +38,16 @@
 
 |  주차  | 날짜 (요일) | 발표자/작성자 |                                               발표 제목                                                |
 | :---------: | :---------: | :-----------: | :----------------------------------------------------------------------------------------------------: |
-| 1주차 | 01.17. (금) |    심여은     |       [Network] REST API에 대해 설명해주세요.   |
+| 1주차 | 01.17. (금) |    심여은     |       [[Network] REST API에 대해 설명해주세요.](https://github.com/FE-CITYR0CK/FE-Tech-Interview/blob/main/HTTP/REST%20API%EC%97%90%20%EB%8C%80%ED%95%B4%20%EC%84%A4%EB%AA%85%ED%95%B4%EC%A3%BC%EC%84%B8%EC%9A%94..md)   |
 | 1주차 | 01.17. (금) |    이지수     |       [HTTP] HTTP 메소드에 대해 설명해주세요.    |
-| 1주차 | 01.17. (금) |    이효린     |       [Web] CSRF나 XSS 공격을 막는 방법을 설명해주세요.   |
+| 1주차 | 01.17. (금) |    이효린     |       [[Web] CSRF나 XSS 공격을 막는 방법을 설명해주세요.](https://github.com/FE-CITYR0CK/FE-Tech-Interview/blob/main/HTTP/CSRF%EB%82%98%20XSS%20%EA%B3%B5%EA%B2%A9%EC%9D%84%20%EB%A7%89%EB%8A%94%20%EB%B0%A9%EB%B2%95%EC%9D%84%20%EC%84%A4%EB%AA%85%ED%95%B4%EC%A3%BC%EC%84%B8%EC%9A%94..md)   |
 | 1주차 | 01.17. (금) |    노이진     |       [[JavaScript] async/await에 대해 설명해주세요.](https://github.com/FE-CITYR0CK/FE-Tech-Interview/blob/main/JavaScript/async%2C%20await%EC%97%90%20%EB%8C%80%ED%95%B4%20%EC%84%A4%EB%AA%85%ED%95%B4%EC%A3%BC%EC%84%B8%EC%9A%94..md)   |
-| 2주차 | 01.21. (화) |    심여은     |       [Network] 브라우저 렌더링 원리에 대해 설명해주세요.   |
-| 2주차 | 01.21. (화) |    이지수     |       [JavaScript] 호이스팅에 대해 설명해주세요.   |
-| 2주차 | 01.24. (금) |    이효린     |       [JavaScript] 클래스형 컴포넌트와 함수형 컴포넌트의 차이는 무엇일까요?   |
+| 2주차 | 01.21. (화) |    심여은     |       [[Network] 브라우저 렌더링 원리에 대해 설명해주세요.](https://github.com/FE-CITYR0CK/FE-Tech-Interview/blob/main/Web/%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%EC%9D%98%20%EB%A0%8C%EB%8D%94%EB%A7%81%20%EC%9B%90%EB%A6%AC%EC%97%90%20%EB%8C%80%ED%95%B4%20%EC%84%A4%EB%AA%85%ED%95%B4%EB%B3%B4%EC%84%B8%EC%9A%94.md)   |
+| 2주차 | 01.21. (화) |    이지수     |       [[JavaScript] 호이스팅에 대해 설명해주세요.](https://github.com/FE-CITYR0CK/FE-Tech-Interview/blob/main/JavaScript/%ED%98%B8%EC%9D%B4%EC%8A%A4%ED%8C%85%EC%97%90%20%EB%8C%80%ED%95%B4%20%EC%84%A4%EB%AA%85%ED%95%B4%EC%A3%BC%EC%84%B8%EC%9A%94.md)   |
+| 2주차 | 01.24. (금) |    이효린     |       [[JavaScript] 클래스형 컴포넌트와 함수형 컴포넌트의 차이는 무엇일까요?](https://github.com/FE-CITYR0CK/FE-Tech-Interview/blob/main/JavaScript/%ED%81%B4%EB%9E%98%EC%8A%A4%ED%98%95%20%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%EC%99%80%20%ED%95%A8%EC%88%98%ED%98%95%20%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%EC%9D%98%20%EC%B0%A8%EC%9D%B4%EB%8A%94%20%EB%AC%B4%EC%97%87%EC%9D%BC%EA%B9%8C%EC%9A%94%3F.md)   |
 | 2주차 | 01.24. (금) |    노이진     |       [[JavaScript] 클로저란 무엇인가요?](https://github.com/FE-CITYR0CK/FE-Tech-Interview/blob/main/JavaScript/%ED%81%B4%EB%A1%9C%EC%A0%80%EB%9E%80%20%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94%3F.md)   |
-| 2주차 | 01.24. (금) |    심여은     |       [JavaScript] "=="와 "==="의 차이는 무엇인가요?   |
+| 3주차 | 02.04. (화) |    심여은     |       [[JavaScript] "=="와 "==="의 차이는 무엇인가요?](https://github.com/FE-CITYR0CK/FE-Tech-Interview/blob/main/JavaScript/%22%3D%3D%22%EC%99%80%20%22%3D%3D%3D%22%EC%9D%98%20%EC%B0%A8%EC%9D%B4%EB%8A%94%20%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94%3F.md)   |
+| 3주차 | 02.04. (화) |    이지수     |       [[Web] Static Site Generator에 대해서 아시나요?](https://github.com/FE-CITYR0CK/FE-Tech-Interview/blob/main/Web/Static%20Site%20Generator%EC%97%90%20%EB%8C%80%ED%95%B4%EC%84%9C%20%EC%95%84%EC%8B%9C%EB%82%98%EC%9A%94%3F.md)   |
+| 3주차 | 02.04. (화) |    이효린     |       [[Web] 주소창에 naver.com을 입력하면 일어나는 일에 대해 말씀해주세요.](https://github.com/FE-CITYR0CK/FE-Tech-Interview/blob/main/Web/%EC%A3%BC%EC%86%8C%EC%B0%BD%EC%97%90%20naver.com%EC%9D%84%20%EC%9E%85%EB%A0%A5%ED%95%98%EB%A9%B4%20%EC%9D%BC%EC%96%B4%EB%82%98%EB%8A%94%20%EC%9D%BC%EC%97%90%20%EB%8C%80%ED%95%B4%20%EB%A7%90%EC%94%80%ED%95%B4%EC%A3%BC%EC%84%B8%EC%9A%94..md)   |
+
 
