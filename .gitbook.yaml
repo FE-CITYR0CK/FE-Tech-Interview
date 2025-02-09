@@ -1,5 +1,5 @@
 ignore:
-  - ".github"
+  - .github
 
 site:
   title: "FE Tech Interview"
