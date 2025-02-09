@@ -14,7 +14,7 @@ MVVM(Model-View-ViewModel) 패턴은 UI와 비즈니스 로직을 분리하면�
 
 ## 개념 설명
 
-### MVVM 패턴
+## MVVM 패턴
 
 **MVVM**은 데이터 바인딩을 사용하여 View와 ViewModel 간에 **양방향 데이터 흐름**을 유지합니다. 
 
@@ -30,7 +30,7 @@ MVVM(Model-View-ViewModel) 패턴은 UI와 비즈니스 로직을 분리하면�
 
 **Angular, Vue.js**
 
-### **Vue.js에서 MVVM 패턴의 동작 순서**
+## **Vue.js에서 MVVM 패턴의 동작 순서**
 
 1. **사용자가 View(UI)에서 이벤트를 발생시킵니다.**
     - 사용자는 버튼을 클릭하거나, 입력 필드에 값을 입력하는 등의 동작을 합니다.
@@ -52,7 +52,9 @@ MVVM(Model-View-ViewModel) 패턴은 UI와 비즈니스 로직을 분리하면�
     - Vue의 반응형 시스템 덕분에, `{{ message }}` 같은 템플릿 바인딩이 자동으로 업데이트됩니다.
     - `v-bind`, `v-model`, `computed` 등의 기능을 통해 UI가 변경된 상태를 반영합니다.
 
-### Flux 패턴
+<br/>
+
+## Flux 패턴
 
 **Flux**는 **단방향 데이터 흐름**을 사용하여 **Action -> Dispatcher -> Store -> View**의 방향으로 데이터가 흐릅니다.
 
@@ -74,7 +76,7 @@ MVVM(Model-View-ViewModel) 패턴은 UI와 비즈니스 로직을 분리하면�
 
 **React, Redux**
 
-### **React에서 Flux 패턴의 동작 순서**
+## React에서 Flux 패턴의 동작 순서
 
 1. **사용자가 View(React 컴포넌트)에서 이벤트를 발생시킵니다.**
     - 사용자가 버튼을 클릭하거나, 입력 필드에 값을 입력하는 등의 동작을 합니다.
