@@ -16,6 +16,7 @@ MVVM(Model-View-ViewModel) 패턴은 UI와 비즈니스 로직을 분리하면�
 <br/>
 
 ## 개념 설명
+<br/>
 
 ## MVVM 패턴
 
@@ -32,6 +33,8 @@ MVVM(Model-View-ViewModel) 패턴은 UI와 비즈니스 로직을 분리하면�
 ### 대표적인 사용 예시
 
 **Angular, Vue.js**
+
+<br/>
 
 ## **Vue.js에서 MVVM 패턴의 동작 순서**
 
@@ -78,6 +81,8 @@ MVVM(Model-View-ViewModel) 패턴은 UI와 비즈니스 로직을 분리하면�
 ### 대표적인 사용 예시
 
 **React, Redux**
+
+<br/>
 
 ## React에서 Flux 패턴의 동작 순서
 
