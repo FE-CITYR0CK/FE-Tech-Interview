@@ -104,6 +104,7 @@ DNS는 도메인네임과 IP를 매칭해서, 도메인네임으로 쿼리를 �
     이 안에 `mail.naver.com` , `cafe.naver.com` ,`blog.naver.com` 등등의 Sub DNS 서버가 가지고 있는 것이죵
 
 <img width="217" alt="image (16)" src="https://github.com/user-attachments/assets/ed8e4544-b45e-4ca5-bedf-be46a15b1be0" />
+
 ![image.png](attachment:8a4da83b-93b2-4e05-81ad-ffbcfabe9a4a:image.png)
 
 <img width="213" alt="image (17)" src="https://github.com/user-attachments/assets/2cb3bdde-2f11-4bbd-8a34-6616c51fa05e" />
