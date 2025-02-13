@@ -8,7 +8,7 @@
 
 <br />
 <div align="center">
-<img width="502" alt="A4 - 1" src="https://github.com/user-attachments/assets/0bce5489-61ce-4d56-a213-2e7bc57145a3" />
+<img width="502" src="https://github.com/user-attachments/assets/0bce5489-61ce-4d56-a213-2e7bc57145a3" />
 </div>
 
 ### 스터디 진행 순서
