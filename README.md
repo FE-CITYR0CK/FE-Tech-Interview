@@ -76,5 +76,5 @@
 | 6주차 | 03.04. (화) |    노이진     |       [[JavaScript] 이벤트 루프, 마이크로태스크 큐와 매크로 태스크 큐에 대해서 말씀해 주세요.](https://github.com/FE-CITYR0CK/FE-Tech-Interview/blob/main/JavaScript)   |
 | 6주차 | 03.07. (금) |    노이진     |       [[JavaScript] 실행 컨텍스트에 대해서 설명해 주세요.](https://github.com/FE-CITYR0CK/FE-Tech-Interview/blob/main/JavaScript)   |
 | 7주차 | 03.11. (화) |    노이진     |       [[JavaScript] HTML이 렌더링 중에 JavaScript가 실행되면 렌더링이 멈추는데 그 이유는 무엇일까요?](https://github.com/FE-CITYR0CK/FE-Tech-Interview/blob/main/JavaScript)   |
-| 8주차 | 03.18. (화) |    노이진     |       [[Network] CORS에 대처하는 방법과 우회하는 방법에 대해 설명해 주세요.](https://github.com/FE-CITYR0CK/FE-Tech-Interview/blob/main/Network)   |
-| 8주차 | 03.22. (토) |    노이진     |       [[Network] UDP란 무엇인가요?](https://github.com/FE-CITYR0CK/FE-Tech-Interview/blob/main/Network)   |
+| 8주차 | 03.18. (화) |    노이진     |       [[Web] CORS에 대처하는 방법과 우회하는 방법에 대해 설명해 주세요.](https://github.com/FE-CITYR0CK/FE-Tech-Interview/blob/main/Web)   |
+| 8주차 | 03.22. (토) |    노이진     |       [[Web] UDP란 무엇인가요?](https://github.com/FE-CITYR0CK/FE-Tech-Interview/blob/main/Web)   |
