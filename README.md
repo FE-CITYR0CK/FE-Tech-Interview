@@ -52,8 +52,29 @@
 
 |  주차  | 날짜 (요일) | 발표자/작성자 |                                               발표 제목                                                |
 | :---------: | :---------: | :-----------: | :----------------------------------------------------------------------------------------------------: |
-| 1주차 | 02.04. (화) |    심여은     |       [[JavaScript] "=="와 "==="의 차이는 무엇인가요?](https://github.com/FE-CITYR0CK/FE-Tech-Interview/blob/main/JavaScript/%22%3D%3D%22%EC%99%80%20%22%3D%3D%3D%22%EC%9D%98%20%EC%B0%A8%EC%9D%B4%EB%8A%94%20%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94%3F.md)   |
-| 1주차 | 02.04. (화) |    이지수     |       [[Web] Static Site Generator에 대해서 아시나요?](https://github.com/FE-CITYR0CK/FE-Tech-Interview/blob/main/Web/Static%20Site%20Generator%EC%97%90%20%EB%8C%80%ED%95%B4%EC%84%9C%20%EC%95%84%EC%8B%9C%EB%82%98%EC%9A%94%3F.md)   |
-| 1주차 | 02.04. (화) |    이효린     |       [[Web] 주소창에 naver.com을 입력하면 일어나는 일에 대해 말씀해주세요.](https://github.com/FE-CITYR0CK/FE-Tech-Interview/blob/main/Web/%EC%A3%BC%EC%86%8C%EC%B0%BD%EC%97%90%20naver.com%EC%9D%84%20%EC%9E%85%EB%A0%A5%ED%95%98%EB%A9%B4%20%EC%9D%BC%EC%96%B4%EB%82%98%EB%8A%94%20%EC%9D%BC%EC%97%90%20%EB%8C%80%ED%95%B4%20%EB%A7%90%EC%94%80%ED%95%B4%EC%A3%BC%EC%84%B8%EC%9A%94..md)   |
-| 1주차 | 02.08. (토) |    노이진     |       [[Web] MVVM 패턴과 Flux 패턴의 차이점을 설명해주세요.](https://github.com/FE-CITYR0CK/FE-Tech-Interview/blob/main/Web/MVVM%20%ED%8C%A8%ED%84%B4%EA%B3%BC%20Flux%20%ED%8C%A8%ED%84%B4%EC%9D%98%20%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%9D%84%20%EC%84%A4%EB%AA%85%ED%95%B4%EC%A3%BC%EC%84%B8%EC%9A%94..md)   |
+| 3주차 | 02.04. (화) |    심여은     |       [[JavaScript] "=="와 "==="의 차이는 무엇인가요?](https://github.com/FE-CITYR0CK/FE-Tech-Interview/blob/main/JavaScript/%22%3D%3D%22%EC%99%80%20%22%3D%3D%3D%22%EC%9D%98%20%EC%B0%A8%EC%9D%B4%EB%8A%94%20%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94%3F.md)   |
+| 3주차 | 02.04. (화) |    이지수     |       [[Web] Static Site Generator에 대해서 아시나요?](https://github.com/FE-CITYR0CK/FE-Tech-Interview/blob/main/Web/Static%20Site%20Generator%EC%97%90%20%EB%8C%80%ED%95%B4%EC%84%9C%20%EC%95%84%EC%8B%9C%EB%82%98%EC%9A%94%3F.md)   |
+| 3주차 | 02.04. (화) |    이효린     |       [[Web] 주소창에 naver.com을 입력하면 일어나는 일에 대해 말씀해주세요.](https://github.com/FE-CITYR0CK/FE-Tech-Interview/blob/main/Web/%EC%A3%BC%EC%86%8C%EC%B0%BD%EC%97%90%20naver.com%EC%9D%84%20%EC%9E%85%EB%A0%A5%ED%95%98%EB%A9%B4%20%EC%9D%BC%EC%96%B4%EB%82%98%EB%8A%94%20%EC%9D%BC%EC%97%90%20%EB%8C%80%ED%95%B4%20%EB%A7%90%EC%94%80%ED%95%B4%EC%A3%BC%EC%84%B8%EC%9A%94..md)   |
+| 3주차 | 02.08. (토) |    노이진     |       [[Web] MVVM 패턴과 Flux 패턴의 차이점을 설명해주세요.](https://github.com/FE-CITYR0CK/FE-Tech-Interview/blob/main/Web/MVVM%20%ED%8C%A8%ED%84%B4%EA%B3%BC%20Flux%20%ED%8C%A8%ED%84%B4%EC%9D%98%20%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%9D%84%20%EC%84%A4%EB%AA%85%ED%95%B4%EC%A3%BC%EC%84%B8%EC%9A%94..md)   |
+| 4주차 | 02.04. (화) |    노이진     |       [[CSS] CSS에서 position을 어떻게 사용하는지 설명해주세요.](https://github.com/FE-CITYR0CK/FE-Tech-Interview/blob/main/CSS/CSS%EC%97%90%EC%84%9C%20position%EC%9D%84%20%EC%96%B4%EB%96%BB%EA%B2%8C%20%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94%EC%A7%80%20%EC%84%A4%EB%AA%85%ED%95%B4%EC%A3%BC%EC%84%B8%EC%9A%94..md)   |
 
+
+### 2025년 2월
+
+|  주차  | 날짜 (요일) | 발표자/작성자 |                                               발표 제목                                                |
+| :---------: | :---------: | :-----------: | :----------------------------------------------------------------------------------------------------: |
+| 2주차 | 02.04. (화) |    심여은     |       [[JavaScript] "=="와 "==="의 차이는 무엇인가요?](https://github.com/FE-CITYR0CK/FE-Tech-Interview/blob/main/JavaScript/%22%3D%3D%22%EC%99%80%20%22%3D%3D%3D%22%EC%9D%98%20%EC%B0%A8%EC%9D%B4%EB%8A%94%20%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94%3F.md)   |
+| 2주차 | 02.04. (화) |    이지수     |       [[Web] Static Site Generator에 대해서 아시나요?](https://github.com/FE-CITYR0CK/FE-Tech-Interview/blob/main/Web/Static%20Site%20Generator%EC%97%90%20%EB%8C%80%ED%95%B4%EC%84%9C%20%EC%95%84%EC%8B%9C%EB%82%98%EC%9A%94%3F.md)   |
+| 2주차 | 02.04. (화) |    이효린     |       [[Web] 주소창에 naver.com을 입력하면 일어나는 일에 대해 말씀해주세요.](https://github.com/FE-CITYR0CK/FE-Tech-Interview/blob/main/Web/%EC%A3%BC%EC%86%8C%EC%B0%BD%EC%97%90%20naver.com%EC%9D%84%20%EC%9E%85%EB%A0%A5%ED%95%98%EB%A9%B4%20%EC%9D%BC%EC%96%B4%EB%82%98%EB%8A%94%20%EC%9D%BC%EC%97%90%20%EB%8C%80%ED%95%B4%20%EB%A7%90%EC%94%80%ED%95%B4%EC%A3%BC%EC%84%B8%EC%9A%94..md)   |
+| 4주차 | 02.11. (화) |    노이진     |       [[Web] MVVM 패턴과 Flux 패턴의 차이점을 설명해주세요.](https://github.com/FE-CITYR0CK/FE-Tech-Interview/blob/main/Web/MVVM%20%ED%8C%A8%ED%84%B4%EA%B3%BC%20Flux%20%ED%8C%A8%ED%84%B4%EC%9D%98%20%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%9D%84%20%EC%84%A4%EB%AA%85%ED%95%B4%EC%A3%BC%EC%84%B8%EC%9A%94..md)   |
+
+
+### 2025년 3월
+
+|  주차  | 날짜 (요일) | 발표자/작성자 |                                               발표 제목                                                |
+| :---------: | :---------: | :-----------: | :----------------------------------------------------------------------------------------------------: |
+| 6주차 | 03.04. (화) |    노이진     |       [[JavaScript] 이벤트 루프, 마이크로태스크 큐와 매크로 태스크 큐에 대해서 말씀해 주세요.](https://github.com/FE-CITYR0CK/FE-Tech-Interview/blob/main/JavaScript)   |
+| 6주차 | 03.07. (금) |    노이진     |       [[JavaScript] 실행 컨텍스트에 대해서 설명해 주세요.](https://github.com/FE-CITYR0CK/FE-Tech-Interview/blob/main/JavaScript)   |
+| 7주차 | 03.11. (화) |    노이진     |       [[JavaScript] HTML이 렌더링 중에 JavaScript가 실행되면 렌더링이 멈추는데 그 이유는 무엇일까요?](https://github.com/FE-CITYR0CK/FE-Tech-Interview/blob/main/JavaScript)   |
+| 8주차 | 03.18. (화) |    노이진     |       [[Network] CORS에 대처하는 방법과 우회하는 방법에 대해 설명해 주세요.](https://github.com/FE-CITYR0CK/FE-Tech-Interview/blob/main/Network)   |
+| 8주차 | 03.22. (토) |    노이진     |       [[Network] UDP란 무엇인가요?](https://github.com/FE-CITYR0CK/FE-Tech-Interview/blob/main/Network)   |
