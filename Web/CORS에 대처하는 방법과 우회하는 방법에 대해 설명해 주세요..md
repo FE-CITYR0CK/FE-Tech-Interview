@@ -33,11 +33,13 @@ https://domain.com:3000/user?query=name&page=1#first
 - Query string : 요청의 key와 value값 ( ?query=name&page=1 )
 - Fragment : 해시 태크 ( #first )
 
+
 1. **`<img>`, `<video>`, `<script>`, `<link>` 태그 등은 기본적으로 Cross-Origin 정책을 지원합니다.**
 
 - `<link>` 태그의 href 에서 다른 사이트의 .css 리소스에 접근하는 것이 가능
 - `<img>` 태그의 src 에서 다른 사이트의 .png, .jpg 등의 리소스에 접근하는 것이 가능
 - `<script>` 태그의 src 에서 다른 사이트의 .js 리소스에 접근하는 것이 가능 (`type="module"` 속성은 제외)
+
 
 2. **XMLHttpRequest, Fetch API 스크립트는 기본적으로 Same-Origin 정책을 지원합니다.**
 
